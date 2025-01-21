@@ -1,0 +1,34 @@
+# Basic configuration
+title: "Welcome to Data Sphere"  # The title of your site
+description: "Advanced DBMS course materials"  # A brief description of your site
+baseurl: ""  # Leave this empty if your site is at the root level of the repository
+url: "https://username.github.io"  # Replace 'username' with your GitHub username
+
+# Theme settings (optional, using the default Jekyll theme or jekyll-theme-primer)
+theme: jekyll-theme-primer  # You can replace this with any other theme you prefer
+
+# Include or exclude files
+exclude:
+  - "README.md"  # Example: Exclude README.md from the build process
+
+# Markdown processor
+markdown: kramdown  # The default markdown processor (you can keep this)
+
+# Permalinks structure
+permalink: /:year/:month/:day/:title/  # This will create pretty permalinks for your posts
+
+# Social links (optional)
+social_links:
+  twitter: "https://twitter.com/your_twitter_handle"
+  linkedin: "https://www.linkedin.com/in/your-profile"
+
+# Customization for GitHub Pages
+github: true  # This option makes sure that Jekyll generates metadata for GitHub Pages
+
+# Plugins
+plugins:
+  - jekyll-seo-tag  # For SEO optimization (optional)
+  - jekyll-paginate  # For pagination (optional)
+
+# Build settings for GitHub Pages
+markdown: kramdown  # Keeps markdown as the default processor
