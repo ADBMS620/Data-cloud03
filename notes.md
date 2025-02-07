@@ -11,3 +11,4 @@ Here, you will find structured notes on Advanced Data Structures and Algorithms.
 - 📌 [Graph Algorithms](/notes/graph-algorithms)
 - 📌 [Dynamic Programming](/notes/dynamic-programming)
 - 📌 [Sorting & Searching](/notes/sorting-searching)
+- 📌 [Analyzing Programs](/notes/Heapsort)
